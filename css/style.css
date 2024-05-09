@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
+
+
+body{
+    font-family: 'Economica', sans-serif;
+    text-align: center;
+}
+
+header{
+    background-color: #857fc8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar{
+    margin-left: -900px
+    ;
+    display: flex;
+    gap: 9.375rem;
+    list-style: none;
+    padding-right: 1.875rem;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navBar li:hover{
+    transform: scale(1.2);
+}
+
+.navBar li a:hover{
+    color: #4c048f;
+}
+
+
+
+#imagenrechazo {
+        width: 100%;
+        height: auto;
+}
